@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(245, 245, 245);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* * {
+      border: 1px solid #000000;
+    } */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.background_white {
+  background-color: #ffffff;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_colum {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex2 {
+  flex: 2;
+}
+
+.flex3 {
+  flex: 3;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.box_big {
+  height: 130px;
+}
+
+.box_li {
+  height: 100px;
+}
+
+.mar_r {
+  margin-right: 8px;
+}
+
+.mar_l {
+  margin-left: 8px;
+}
+
+.mar_rl {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.mar_t {
+  margin-top: 8px;
+}
+
+.pad5 {
+  padding: 10px;
+}
+
+.shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.someborder {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+/* 当屏幕宽度小于600px生效 */
+@media (max-width: 600px) {
+  .side_l {
+    display: none;
+  }
+  .neirong {
+    flex-direction: column;
+  }
+  .nrmarl {
+    margin-left: 8px;
+  }
+  .flexco {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .shuju {
+    margin-top: 8px;
+  }
+}
